@@ -64,7 +64,7 @@ async def get_pokemon_data(session, poke_id):
     )
 
     data = {
-        "id": pokemon["id"],
+        "pokedex_num": pokemon["id"],  # Numéro officiel du Pokédex
         "nom": next(
             (name["name"] for name in species["names"] if name["language"]["name"] == "fr"),
             pokemon["name"]
@@ -82,6 +82,7 @@ async def get_pokemon_data(session, poke_id):
         "evolution_chain_url": evolution_url,
         "evolue_de": evolves_from,
     }
+
 
     return data
 
@@ -109,19 +110,21 @@ async def main():
         json.dump(pokemons, f, ensure_ascii=False, indent=2)
     print("💾 Fichier enregistré : data/pokedex_preview.json")
 
-    # Vérification et insertion conditionnelle
+    # --- Vérification et insertion conditionnelle
     inserted, skipped = 0, 0
     for p in tqdm(pokemons, desc="Insertion en base", unit="pokémon"):
-        if collection.find_one({"id": p["id"]}):
+        # On cherche si le pokémon est déjà présent via pokedex_num
+        if collection.find_one({"pokedex_num": p["pokedex_num"]}):
             skipped += 1
             continue
         # Décommenter la ligne ci-dessous pour activer l'insertion
         collection.insert_one(p)
         inserted += 1
-
+    
     print(f"\n✅ Nouveaux Pokémon insérés : {inserted}")
     print(f"🔁 Pokémon déjà présents : {skipped}")
     print("🎉 Initialisation terminée avec succès.")
+
 
 # --- EXECUTION --------------------------------------------------------
 

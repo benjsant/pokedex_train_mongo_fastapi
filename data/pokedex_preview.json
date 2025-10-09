@@ -1,0 +1,3844 @@
+[
+  {
+    "pokedex_num": 1,
+    "nom": "Bulbizarre",
+    "nom_anglais": "bulbasaur",
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "taille_m": 0.7,
+    "poids_kg": 6.9,
+    "stats": {
+      "hp": 45,
+      "attack": 49,
+      "defense": 49,
+      "special-attack": 65,
+      "special-defense": 65,
+      "speed": 45
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png"
+    },
+    "description": "Au matin de sa vie, la graine sur son dos lui fournit les éléments dont il a besoin pour grandir.",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/1/",
+    "evolue_de": null
+  },
+  {
+    "pokedex_num": 2,
+    "nom": "Herbizarre",
+    "nom_anglais": "ivysaur",
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "taille_m": 1.0,
+    "poids_kg": 13.0,
+    "stats": {
+      "hp": 60,
+      "attack": 62,
+      "defense": 63,
+      "special-attack": 80,
+      "special-defense": 80,
+      "speed": 60
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/2.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png"
+    },
+    "description": "Lorsque le bourgeon sur son dos éclot, il répand un doux parfum pour célébrer sa floraison.",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/1/",
+    "evolue_de": "bulbasaur"
+  },
+  {
+    "pokedex_num": 3,
+    "nom": "Florizarre",
+    "nom_anglais": "venusaur",
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "taille_m": 2.0,
+    "poids_kg": 100.0,
+    "stats": {
+      "hp": 80,
+      "attack": 82,
+      "defense": 83,
+      "special-attack": 100,
+      "special-defense": 100,
+      "speed": 80
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/3.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png"
+    },
+    "description": "Le parfum de sa fleur se fait plus pénétrant les lendemains de pluie. Cela appâte les autres Pokémon.",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/1/",
+    "evolue_de": "ivysaur"
+  },
+  {
+    "pokedex_num": 4,
+    "nom": "Salamèche",
+    "nom_anglais": "charmander",
+    "types": [
+      "fire"
+    ],
+    "taille_m": 0.6,
+    "poids_kg": 8.5,
+    "stats": {
+      "hp": 39,
+      "attack": 52,
+      "defense": 43,
+      "special-attack": 60,
+      "special-defense": 50,
+      "speed": 65
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/4.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png"
+    },
+    "description": "La flamme de sa queue symbolise sa vitalité. Elle est intense quand il est en bonne santé.",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/2/",
+    "evolue_de": null
+  },
+  {
+    "pokedex_num": 5,
+    "nom": "Reptincel",
+    "nom_anglais": "charmeleon",
+    "types": [
+      "fire"
+    ],
+    "taille_m": 1.1,
+    "poids_kg": 19.0,
+    "stats": {
+      "hp": 58,
+      "attack": 64,
+      "defense": 58,
+      "special-attack": 80,
+      "special-defense": 65,
+      "speed": 80
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/5.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png"
+    },
+    "description": "La nuit, la queue ardente du Reptincel brille comme une étoile dans son repaire montagneux.",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/2/",
+    "evolue_de": "charmander"
+  },
+  {
+    "pokedex_num": 6,
+    "nom": "Dracaufeu",
+    "nom_anglais": "charizard",
+    "types": [
+      "fire",
+      "flying"
+    ],
+    "taille_m": 1.7,
+    "poids_kg": 90.5,
+    "stats": {
+      "hp": 78,
+      "attack": 84,
+      "defense": 78,
+      "special-attack": 109,
+      "special-defense": 85,
+      "speed": 100
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/6.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png"
+    },
+    "description": "On raconte que la flamme du Dracaufeu s’intensifie après un combat difficile.",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/2/",
+    "evolue_de": "charmeleon"
+  },
+  {
+    "pokedex_num": 7,
+    "nom": "Carapuce",
+    "nom_anglais": "squirtle",
+    "types": [
+      "water"
+    ],
+    "taille_m": 0.5,
+    "poids_kg": 9.0,
+    "stats": {
+      "hp": 44,
+      "attack": 48,
+      "defense": 65,
+      "special-attack": 50,
+      "special-defense": 64,
+      "speed": 43
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/7.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png"
+    },
+    "description": "Il se réfugie dans sa carapace et réplique en éclaboussant l’ennemi à la première occasion.",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/3/",
+    "evolue_de": null
+  },
+  {
+    "pokedex_num": 8,
+    "nom": "Carabaffe",
+    "nom_anglais": "wartortle",
+    "types": [
+      "water"
+    ],
+    "taille_m": 1.0,
+    "poids_kg": 22.5,
+    "stats": {
+      "hp": 59,
+      "attack": 63,
+      "defense": 80,
+      "special-attack": 65,
+      "special-defense": 80,
+      "speed": 58
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/8.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/8.png"
+    },
+    "description": "On prétend qu’il vit 10 000 ans. Sa queue duveteuse est un symbole de longévité populaire.",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/3/",
+    "evolue_de": "squirtle"
+  },
+  {
+    "pokedex_num": 9,
+    "nom": "Tortank",
+    "nom_anglais": "blastoise",
+    "types": [
+      "water"
+    ],
+    "taille_m": 1.6,
+    "poids_kg": 85.5,
+    "stats": {
+      "hp": 79,
+      "attack": 83,
+      "defense": 100,
+      "special-attack": 85,
+      "special-defense": 105,
+      "speed": 78
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/9.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/9.png"
+    },
+    "description": "Les trombes d’eau projetées par les canons de sa carapace peuvent percer le métal le plus résistant.",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/3/",
+    "evolue_de": "wartortle"
+  },
+  {
+    "pokedex_num": 10,
+    "nom": "Chenipan",
+    "nom_anglais": "caterpie",
+    "types": [
+      "bug"
+    ],
+    "taille_m": 0.3,
+    "poids_kg": 2.9,
+    "stats": {
+      "hp": 45,
+      "attack": 30,
+      "defense": 35,
+      "special-attack": 20,
+      "special-defense": 20,
+      "speed": 45
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10.png"
+    },
+    "description": "Ses antennes rouges libèrent une puanteur qui repousse l’ennemi. Il grandit par mues régulières.",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/4/",
+    "evolue_de": null
+  },
+  {
+    "pokedex_num": 11,
+    "nom": "Chrysacier",
+    "nom_anglais": "metapod",
+    "types": [
+      "bug"
+    ],
+    "taille_m": 0.7,
+    "poids_kg": 9.9,
+    "stats": {
+      "hp": 50,
+      "attack": 20,
+      "defense": 55,
+      "special-attack": 25,
+      "special-defense": 25,
+      "speed": 30
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/11.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/11.png"
+    },
+    "description": "Son corps frêle est protégé par sa carapace d’acier. Il encaisse les coups durs en attendant d’évoluer.",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/4/",
+    "evolue_de": "caterpie"
+  },
+  {
+    "pokedex_num": 12,
+    "nom": "Papilusion",
+    "nom_anglais": "butterfree",
+    "types": [
+      "bug",
+      "flying"
+    ],
+    "taille_m": 1.1,
+    "poids_kg": 32.0,
+    "stats": {
+      "hp": 60,
+      "attack": 45,
+      "defense": 50,
+      "special-attack": 90,
+      "special-defense": 80,
+      "speed": 70
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/12.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/12.png"
+    },
+    "description": "Il raffole du nectar des fleurs. Il est capable de repérer la plus petite quantité de pollen.",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/4/",
+    "evolue_de": "metapod"
+  },
+  {
+    "pokedex_num": 13,
+    "nom": "Aspicot",
+    "nom_anglais": "weedle",
+    "types": [
+      "bug",
+      "poison"
+    ],
+    "taille_m": 0.3,
+    "poids_kg": 3.2,
+    "stats": {
+      "hp": 40,
+      "attack": 35,
+      "defense": 30,
+      "special-attack": 20,
+      "special-defense": 20,
+      "speed": 50
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/13.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/13.png"
+    },
+    "description": "Il mange chaque jour son poids en feuilles. Il utilise l’aiguillon sur sa tête pour repousser l’ennemi.",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/5/",
+    "evolue_de": null
+  },
+  {
+    "pokedex_num": 14,
+    "nom": "Coconfort",
+    "nom_anglais": "kakuna",
+    "types": [
+      "bug",
+      "poison"
+    ],
+    "taille_m": 0.6,
+    "poids_kg": 10.0,
+    "stats": {
+      "hp": 45,
+      "attack": 25,
+      "defense": 50,
+      "special-attack": 25,
+      "special-defense": 25,
+      "speed": 35
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/14.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/14.png"
+    },
+    "description": "Il se cache sous les feuilles et les branches pour fuir les prédateurs en attendant d’évoluer.",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/5/",
+    "evolue_de": "weedle"
+  },
+  {
+    "pokedex_num": 15,
+    "nom": "Dardargnan",
+    "nom_anglais": "beedrill",
+    "types": [
+      "bug",
+      "poison"
+    ],
+    "taille_m": 1.0,
+    "poids_kg": 29.5,
+    "stats": {
+      "hp": 65,
+      "attack": 90,
+      "defense": 40,
+      "special-attack": 45,
+      "special-defense": 80,
+      "speed": 75
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/15.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/15.png"
+    },
+    "description": "Il virevolte rapidement autour de l’ennemi et frappe de son dard empoisonné avant de décamper.",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/5/",
+    "evolue_de": "kakuna"
+  },
+  {
+    "pokedex_num": 16,
+    "nom": "Roucool",
+    "nom_anglais": "pidgey",
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "taille_m": 0.3,
+    "poids_kg": 1.8,
+    "stats": {
+      "hp": 40,
+      "attack": 45,
+      "defense": 40,
+      "special-attack": 35,
+      "special-defense": 35,
+      "speed": 56
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/16.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/16.png"
+    },
+    "description": "Ce Pokémon docile préfère éviter le combat. Toutefois, il se montre très féroce quand on l’agresse.",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/6/",
+    "evolue_de": null
+  },
+  {
+    "pokedex_num": 17,
+    "nom": "Roucoups",
+    "nom_anglais": "pidgeotto",
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "taille_m": 1.1,
+    "poids_kg": 30.0,
+    "stats": {
+      "hp": 63,
+      "attack": 60,
+      "defense": 55,
+      "special-attack": 50,
+      "special-defense": 50,
+      "speed": 71
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/17.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/17.png"
+    },
+    "description": "Il survole son vaste territoire en quête d’une proie avant de fondre sur elle toutes griffes en avant.",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/6/",
+    "evolue_de": "pidgey"
+  },
+  {
+    "pokedex_num": 18,
+    "nom": "Roucarnage",
+    "nom_anglais": "pidgeot",
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "taille_m": 1.5,
+    "poids_kg": 39.5,
+    "stats": {
+      "hp": 83,
+      "attack": 80,
+      "defense": 75,
+      "special-attack": 70,
+      "special-defense": 70,
+      "speed": 101
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/18.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/18.png"
+    },
+    "description": "En battant des ailes de toutes ses forces, Roucarnage génère une rafale à en déraciner les arbres.",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/6/",
+    "evolue_de": "pidgeotto"
+  },
+  {
+    "pokedex_num": 19,
+    "nom": "Rattata",
+    "nom_anglais": "rattata",
+    "types": [
+      "normal"
+    ],
+    "taille_m": 0.3,
+    "poids_kg": 3.5,
+    "stats": {
+      "hp": 30,
+      "attack": 56,
+      "defense": 35,
+      "special-attack": 25,
+      "special-defense": 35,
+      "speed": 72
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/19.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/19.png"
+    },
+    "description": "D’une prudence extrême, sa nature robuste lui permet de s’adapter à tous les terrains.",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/7/",
+    "evolue_de": null
+  },
+  {
+    "pokedex_num": 20,
+    "nom": "Rattatac",
+    "nom_anglais": "raticate",
+    "types": [
+      "normal"
+    ],
+    "taille_m": 0.7,
+    "poids_kg": 18.5,
+    "stats": {
+      "hp": 55,
+      "attack": 81,
+      "defense": 60,
+      "special-attack": 50,
+      "special-defense": 70,
+      "speed": 97
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/20.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/20.png"
+    },
+    "description": "Ses pattes arrière lui permettent de traverser les rivières. Il est toujours en quête de nourriture.",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/7/",
+    "evolue_de": "rattata"
+  },
+  {
+    "pokedex_num": 21,
+    "nom": "Piafabec",
+    "nom_anglais": "spearow",
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "taille_m": 0.3,
+    "poids_kg": 2.0,
+    "stats": {
+      "hp": 40,
+      "attack": 60,
+      "defense": 30,
+      "special-attack": 31,
+      "special-defense": 31,
+      "speed": 70
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/21.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/21.png"
+    },
+    "description": "Il fait battre vigoureusement ses petites ailes pour voler et cherche à manger dans l’herbe avec le bec.",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/8/",
+    "evolue_de": null
+  },
+  {
+    "pokedex_num": 22,
+    "nom": "Rapasdepic",
+    "nom_anglais": "fearow",
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "taille_m": 1.2,
+    "poids_kg": 38.0,
+    "stats": {
+      "hp": 65,
+      "attack": 90,
+      "defense": 65,
+      "special-attack": 61,
+      "special-defense": 61,
+      "speed": 100
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/22.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/22.png"
+    },
+    "description": "Il a assez d’énergie pour voler toute la journée avec ses grandes ailes. Il frappe de son bec acéré.",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/8/",
+    "evolue_de": "spearow"
+  },
+  {
+    "pokedex_num": 23,
+    "nom": "Abo",
+    "nom_anglais": "ekans",
+    "types": [
+      "poison"
+    ],
+    "taille_m": 2.0,
+    "poids_kg": 6.9,
+    "stats": {
+      "hp": 35,
+      "attack": 60,
+      "defense": 44,
+      "special-attack": 40,
+      "special-defense": 54,
+      "speed": 55
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/23.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/23.png"
+    },
+    "description": "Il se faufile dans l’herbe sans un bruit et frappe dans le dos quand sa proie s’y attend le moins.",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/9/",
+    "evolue_de": null
+  },
+  {
+    "pokedex_num": 24,
+    "nom": "Arbok",
+    "nom_anglais": "arbok",
+    "types": [
+      "poison"
+    ],
+    "taille_m": 3.5,
+    "poids_kg": 65.0,
+    "stats": {
+      "hp": 60,
+      "attack": 95,
+      "defense": 69,
+      "special-attack": 65,
+      "special-defense": 79,
+      "speed": 80
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/24.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/24.png"
+    },
+    "description": "Il utilise la marque sur son ventre pour intimider l’ennemi. Il étouffe l’ennemi pétrifié par la peur.",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/9/",
+    "evolue_de": "ekans"
+  },
+  {
+    "pokedex_num": 25,
+    "nom": "Pikachu",
+    "nom_anglais": "pikachu",
+    "types": [
+      "electric"
+    ],
+    "taille_m": 0.4,
+    "poids_kg": 6.0,
+    "stats": {
+      "hp": 35,
+      "attack": 55,
+      "defense": 40,
+      "special-attack": 50,
+      "special-defense": 50,
+      "speed": 90
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png"
+    },
+    "description": "Il lui arrive de remettre d’aplomb un Pikachu allié en lui envoyant une décharge électrique.",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/10/",
+    "evolue_de": "pichu"
+  },
+  {
+    "pokedex_num": 26,
+    "nom": "Raichu",
+    "nom_anglais": "raichu",
+    "types": [
+      "electric"
+    ],
+    "taille_m": 0.8,
+    "poids_kg": 30.0,
+    "stats": {
+      "hp": 60,
+      "attack": 90,
+      "defense": 55,
+      "special-attack": 90,
+      "special-defense": 80,
+      "speed": 110
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/26.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/26.png"
+    },
+    "description": "Il se protège des décharges grâce à sa queue qui dissipe l’électricité dans le sol.",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/10/",
+    "evolue_de": "pikachu"
+  },
+  {
+    "pokedex_num": 27,
+    "nom": "Sabelette",
+    "nom_anglais": "sandshrew",
+    "types": [
+      "ground"
+    ],
+    "taille_m": 0.6,
+    "poids_kg": 12.0,
+    "stats": {
+      "hp": 50,
+      "attack": 75,
+      "defense": 85,
+      "special-attack": 20,
+      "special-defense": 30,
+      "speed": 40
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/27.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/27.png"
+    },
+    "description": "Il vit sur des terres arides épargnées par la pluie. Il se roule en boule pour se protéger.",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/11/",
+    "evolue_de": null
+  },
+  {
+    "pokedex_num": 28,
+    "nom": "Sablaireau",
+    "nom_anglais": "sandslash",
+    "types": [
+      "ground"
+    ],
+    "taille_m": 1.0,
+    "poids_kg": 29.5,
+    "stats": {
+      "hp": 75,
+      "attack": 100,
+      "defense": 110,
+      "special-attack": 45,
+      "special-defense": 55,
+      "speed": 65
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/28.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/28.png"
+    },
+    "description": "Il se met en boule pour percuter l’ennemi. Ses épines aiguisées font beaucoup de dégâts.",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/11/",
+    "evolue_de": "sandshrew"
+  },
+  {
+    "pokedex_num": 29,
+    "nom": "Nidoran♀",
+    "nom_anglais": "nidoran-f",
+    "types": [
+      "poison"
+    ],
+    "taille_m": 0.4,
+    "poids_kg": 7.0,
+    "stats": {
+      "hp": 55,
+      "attack": 47,
+      "defense": 52,
+      "special-attack": 40,
+      "special-defense": 40,
+      "speed": 41
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/29.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/29.png"
+    },
+    "description": "Bien qu’il rechigne à se battre, une goutte du poison sécrété par ses piquants peut s’avérer fatale.",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/12/",
+    "evolue_de": null
+  },
+  {
+    "pokedex_num": 30,
+    "nom": "Nidorina",
+    "nom_anglais": "nidorina",
+    "types": [
+      "poison"
+    ],
+    "taille_m": 0.8,
+    "poids_kg": 20.0,
+    "stats": {
+      "hp": 70,
+      "attack": 62,
+      "defense": 67,
+      "special-attack": 55,
+      "special-defense": 55,
+      "speed": 56
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/30.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/30.png"
+    },
+    "description": "Ce Pokémon dresse ses piquants en cas de danger. Ils poussent moins vite que ceux de Nidorino.",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/12/",
+    "evolue_de": "nidoran-f"
+  },
+  {
+    "pokedex_num": 31,
+    "nom": "Nidoqueen",
+    "nom_anglais": "nidoqueen",
+    "types": [
+      "poison",
+      "ground"
+    ],
+    "taille_m": 1.3,
+    "poids_kg": 60.0,
+    "stats": {
+      "hp": 90,
+      "attack": 92,
+      "defense": 87,
+      "special-attack": 75,
+      "special-defense": 85,
+      "speed": 76
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/31.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/31.png"
+    },
+    "description": "Son corps est recouvert d’écailles solides. Il donnera sa vie pour secourir les petits de son terrier.",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/12/",
+    "evolue_de": "nidorina"
+  },
+  {
+    "pokedex_num": 32,
+    "nom": "Nidoran♂",
+    "nom_anglais": "nidoran-m",
+    "types": [
+      "poison"
+    ],
+    "taille_m": 0.5,
+    "poids_kg": 9.0,
+    "stats": {
+      "hp": 46,
+      "attack": 57,
+      "defense": 40,
+      "special-attack": 40,
+      "special-defense": 40,
+      "speed": 50
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/32.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/32.png"
+    },
+    "description": "Il jauge le terrain en laissant ses oreilles dépasser de l’herbe. Il se défend avec sa corne toxique.",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/13/",
+    "evolue_de": null
+  },
+  {
+    "pokedex_num": 33,
+    "nom": "Nidorino",
+    "nom_anglais": "nidorino",
+    "types": [
+      "poison"
+    ],
+    "taille_m": 0.9,
+    "poids_kg": 19.5,
+    "stats": {
+      "hp": 61,
+      "attack": 72,
+      "defense": 57,
+      "special-attack": 55,
+      "special-defense": 55,
+      "speed": 65
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/33.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/33.png"
+    },
+    "description": "D’un tempérament violent, il empale l’ennemi sur sa corne qui distille un poison puissant.",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/13/",
+    "evolue_de": "nidoran-m"
+  },
+  {
+    "pokedex_num": 34,
+    "nom": "Nidoking",
+    "nom_anglais": "nidoking",
+    "types": [
+      "poison",
+      "ground"
+    ],
+    "taille_m": 1.4,
+    "poids_kg": 62.0,
+    "stats": {
+      "hp": 81,
+      "attack": 102,
+      "defense": 77,
+      "special-attack": 85,
+      "special-defense": 75,
+      "speed": 85
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/34.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/34.png"
+    },
+    "description": "Un coup de sa puissante queue peut briser un poteau téléphonique comme une allumette.",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/13/",
+    "evolue_de": "nidorino"
+  },
+  {
+    "pokedex_num": 35,
+    "nom": "Mélofée",
+    "nom_anglais": "clefairy",
+    "types": [
+      "fairy"
+    ],
+    "taille_m": 0.6,
+    "poids_kg": 7.5,
+    "stats": {
+      "hp": 70,
+      "attack": 45,
+      "defense": 48,
+      "special-attack": 60,
+      "special-defense": 65,
+      "speed": 35
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/35.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/35.png"
+    },
+    "description": "On dit que ceux qui voient danser un groupe de Mélofée sous la pleine lune connaîtront un grand bonheur.",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/14/",
+    "evolue_de": "cleffa"
+  },
+  {
+    "pokedex_num": 36,
+    "nom": "Mélodelfe",
+    "nom_anglais": "clefable",
+    "types": [
+      "fairy"
+    ],
+    "taille_m": 1.3,
+    "poids_kg": 40.0,
+    "stats": {
+      "hp": 95,
+      "attack": 70,
+      "defense": 73,
+      "special-attack": 95,
+      "special-defense": 90,
+      "speed": 60
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/36.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/36.png"
+    },
+    "description": "Il est très farouche et se laisse rarement approcher. De plus, il détecte les sons à plus d’1 km.",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/14/",
+    "evolue_de": "clefairy"
+  },
+  {
+    "pokedex_num": 37,
+    "nom": "Goupix",
+    "nom_anglais": "vulpix",
+    "types": [
+      "fire"
+    ],
+    "taille_m": 0.6,
+    "poids_kg": 9.9,
+    "stats": {
+      "hp": 38,
+      "attack": 41,
+      "defense": 40,
+      "special-attack": 50,
+      "special-defense": 65,
+      "speed": 65
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/37.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/37.png"
+    },
+    "description": "Il envoie des boules de feu. Avec l’âge, ses six queues en forment de nouvelles.",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/15/",
+    "evolue_de": null
+  },
+  {
+    "pokedex_num": 38,
+    "nom": "Feunard",
+    "nom_anglais": "ninetales",
+    "types": [
+      "fire"
+    ],
+    "taille_m": 1.1,
+    "poids_kg": 19.9,
+    "stats": {
+      "hp": 73,
+      "attack": 76,
+      "defense": 75,
+      "special-attack": 81,
+      "special-defense": 100,
+      "speed": 100
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/38.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/38.png"
+    },
+    "description": "On raconte que ses neuf queues détiennent un pouvoir mystique. Il peut vivre pendant mille ans.",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/15/",
+    "evolue_de": "vulpix"
+  },
+  {
+    "pokedex_num": 39,
+    "nom": "Rondoudou",
+    "nom_anglais": "jigglypuff",
+    "types": [
+      "normal",
+      "fairy"
+    ],
+    "taille_m": 0.5,
+    "poids_kg": 5.5,
+    "stats": {
+      "hp": 115,
+      "attack": 45,
+      "defense": 20,
+      "special-attack": 45,
+      "special-defense": 25,
+      "speed": 20
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/39.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/39.png"
+    },
+    "description": "Lorsqu’il roule ses grands yeux ronds, il entonne une berceuse qui endort son auditoire.",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/16/",
+    "evolue_de": "igglybuff"
+  },
+  {
+    "pokedex_num": 40,
+    "nom": "Grodoudou",
+    "nom_anglais": "wigglytuff",
+    "types": [
+      "normal",
+      "fairy"
+    ],
+    "taille_m": 1.0,
+    "poids_kg": 12.0,
+    "stats": {
+      "hp": 140,
+      "attack": 70,
+      "defense": 45,
+      "special-attack": 85,
+      "special-defense": 50,
+      "speed": 45
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/40.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/40.png"
+    },
+    "description": "Sa fourrure est d’une douceur incomparable au toucher. Il  peut gonfler en aspirant de l’air.",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/16/",
+    "evolue_de": "jigglypuff"
+  },
+  {
+    "pokedex_num": 41,
+    "nom": "Nosferapti",
+    "nom_anglais": "zubat",
+    "types": [
+      "poison",
+      "flying"
+    ],
+    "taille_m": 0.8,
+    "poids_kg": 7.5,
+    "stats": {
+      "hp": 40,
+      "attack": 45,
+      "defense": 35,
+      "special-attack": 30,
+      "special-defense": 40,
+      "speed": 55
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/41.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/41.png"
+    },
+    "description": "Dépourvu d’yeux, il se repère dans l’espace grâce aux ultrasons qu’il émet avec sa bouche.",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/17/",
+    "evolue_de": null
+  },
+  {
+    "pokedex_num": 42,
+    "nom": "Nosferalto",
+    "nom_anglais": "golbat",
+    "types": [
+      "poison",
+      "flying"
+    ],
+    "taille_m": 1.6,
+    "poids_kg": 55.0,
+    "stats": {
+      "hp": 75,
+      "attack": 80,
+      "defense": 70,
+      "special-attack": 65,
+      "special-defense": 75,
+      "speed": 90
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/42.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/42.png"
+    },
+    "description": "Ses crocs acérés et creux peuvent pénétrer la plus épaisse des peaux et sucer le sang de la victime.",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/17/",
+    "evolue_de": "zubat"
+  },
+  {
+    "pokedex_num": 43,
+    "nom": "Mystherbe",
+    "nom_anglais": "oddish",
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "taille_m": 0.5,
+    "poids_kg": 5.4,
+    "stats": {
+      "hp": 45,
+      "attack": 50,
+      "defense": 55,
+      "special-attack": 75,
+      "special-defense": 65,
+      "speed": 30
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/43.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/43.png"
+    },
+    "description": "En journée, il plante ses pieds-racines dans le sol. La nuit, il se promène en semant des graines.",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/18/",
+    "evolue_de": null
+  },
+  {
+    "pokedex_num": 44,
+    "nom": "Ortide",
+    "nom_anglais": "gloom",
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "taille_m": 0.8,
+    "poids_kg": 8.6,
+    "stats": {
+      "hp": 60,
+      "attack": 65,
+      "defense": 70,
+      "special-attack": 85,
+      "special-defense": 75,
+      "speed": 40
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/44.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/44.png"
+    },
+    "description": "L’odeur du nectar de sa bouche est si répugnante qu’elle agresse les narines à deux kilomètres.",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/18/",
+    "evolue_de": "oddish"
+  },
+  {
+    "pokedex_num": 45,
+    "nom": "Rafflesia",
+    "nom_anglais": "vileplume",
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "taille_m": 1.2,
+    "poids_kg": 18.6,
+    "stats": {
+      "hp": 75,
+      "attack": 80,
+      "defense": 85,
+      "special-attack": 110,
+      "special-defense": 90,
+      "speed": 50
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/45.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/45.png"
+    },
+    "description": "Ses pétales sont les plus grands du monde. Il marche en répandant un pollen extrêmement allergène.",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/18/",
+    "evolue_de": "gloom"
+  },
+  {
+    "pokedex_num": 46,
+    "nom": "Paras",
+    "nom_anglais": "paras",
+    "types": [
+      "bug",
+      "grass"
+    ],
+    "taille_m": 0.3,
+    "poids_kg": 5.4,
+    "stats": {
+      "hp": 35,
+      "attack": 70,
+      "defense": 55,
+      "special-attack": 45,
+      "special-defense": 55,
+      "speed": 25
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/46.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/46.png"
+    },
+    "description": "Des champignons appelés “tochukaso” poussent sur son dos. Ils évoluent avec le Paras hôte.",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/19/",
+    "evolue_de": null
+  },
+  {
+    "pokedex_num": 47,
+    "nom": "Parasect",
+    "nom_anglais": "parasect",
+    "types": [
+      "bug",
+      "grass"
+    ],
+    "taille_m": 1.0,
+    "poids_kg": 29.5,
+    "stats": {
+      "hp": 60,
+      "attack": 95,
+      "defense": 80,
+      "special-attack": 60,
+      "special-defense": 80,
+      "speed": 30
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/47.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/47.png"
+    },
+    "description": "Un champignon parasite plus gros que Parasect contrôle son corps. Il répand des spores empoisonnées.",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/19/",
+    "evolue_de": "paras"
+  },
+  {
+    "pokedex_num": 48,
+    "nom": "Mimitoss",
+    "nom_anglais": "venonat",
+    "types": [
+      "bug",
+      "poison"
+    ],
+    "taille_m": 1.0,
+    "poids_kg": 30.0,
+    "stats": {
+      "hp": 60,
+      "attack": 55,
+      "defense": 50,
+      "special-attack": 40,
+      "special-defense": 55,
+      "speed": 45
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/48.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/48.png"
+    },
+    "description": "Ses grands yeux sont en fait des amas d’yeux minuscules. La nuit, il est attiré par la lumière.",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/20/",
+    "evolue_de": null
+  },
+  {
+    "pokedex_num": 49,
+    "nom": "Aéromite",
+    "nom_anglais": "venomoth",
+    "types": [
+      "bug",
+      "poison"
+    ],
+    "taille_m": 1.5,
+    "poids_kg": 12.5,
+    "stats": {
+      "hp": 70,
+      "attack": 65,
+      "defense": 60,
+      "special-attack": 90,
+      "special-defense": 75,
+      "speed": 90
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/49.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/49.png"
+    },
+    "description": "Il répand ses écailles poudreuses en battant des ailes. Elles sont toxiques au toucher.",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/20/",
+    "evolue_de": "venonat"
+  },
+  {
+    "pokedex_num": 50,
+    "nom": "Taupiqueur",
+    "nom_anglais": "diglett",
+    "types": [
+      "ground"
+    ],
+    "taille_m": 0.2,
+    "poids_kg": 0.8,
+    "stats": {
+      "hp": 10,
+      "attack": 55,
+      "defense": 25,
+      "special-attack": 35,
+      "special-defense": 45,
+      "speed": 95
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/50.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/50.png"
+    },
+    "description": "Un Pokémon qui vit sous terre. Habitué aux souterrains, il fuit la lumière du jour.",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/21/",
+    "evolue_de": null
+  },
+  {
+    "pokedex_num": 51,
+    "nom": "Triopikeur",
+    "nom_anglais": "dugtrio",
+    "types": [
+      "ground"
+    ],
+    "taille_m": 0.7,
+    "poids_kg": 33.3,
+    "stats": {
+      "hp": 35,
+      "attack": 100,
+      "defense": 50,
+      "special-attack": 50,
+      "special-defense": 70,
+      "speed": 120
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/51.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/51.png"
+    },
+    "description": "Ses trois têtes creusent le sol à tour de rôle. Il peut atteindre des profondeurs de 100 kilomètres.",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/21/",
+    "evolue_de": "diglett"
+  },
+  {
+    "pokedex_num": 52,
+    "nom": "Miaouss",
+    "nom_anglais": "meowth",
+    "types": [
+      "normal"
+    ],
+    "taille_m": 0.4,
+    "poids_kg": 4.2,
+    "stats": {
+      "hp": 40,
+      "attack": 45,
+      "defense": 35,
+      "special-attack": 40,
+      "special-defense": 40,
+      "speed": 90
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/52.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/52.png"
+    },
+    "description": "Son regard s’anime à la vue d’un objet brillant. C’est un Pokémon nocturne.",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/22/",
+    "evolue_de": null
+  },
+  {
+    "pokedex_num": 53,
+    "nom": "Persian",
+    "nom_anglais": "persian",
+    "types": [
+      "normal"
+    ],
+    "taille_m": 1.0,
+    "poids_kg": 32.0,
+    "stats": {
+      "hp": 65,
+      "attack": 70,
+      "defense": 60,
+      "special-attack": 65,
+      "special-defense": 65,
+      "speed": 115
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/53.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/53.png"
+    },
+    "description": "Un Pokémon très snob. La taille du joyau qui orne son front alimente bien des débats parmi ses fans.",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/22/",
+    "evolue_de": "meowth"
+  },
+  {
+    "pokedex_num": 54,
+    "nom": "Psykokwak",
+    "nom_anglais": "psyduck",
+    "types": [
+      "water"
+    ],
+    "taille_m": 0.8,
+    "poids_kg": 19.6,
+    "stats": {
+      "hp": 50,
+      "attack": 52,
+      "defense": 48,
+      "special-attack": 65,
+      "special-defense": 50,
+      "speed": 55
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/54.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/54.png"
+    },
+    "description": "Ses pouvoirs déconcertants et mystérieux lui font subir de constantes migraines.",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/23/",
+    "evolue_de": null
+  },
+  {
+    "pokedex_num": 55,
+    "nom": "Akwakwak",
+    "nom_anglais": "golduck",
+    "types": [
+      "water"
+    ],
+    "taille_m": 1.7,
+    "poids_kg": 76.6,
+    "stats": {
+      "hp": 80,
+      "attack": 82,
+      "defense": 78,
+      "special-attack": 95,
+      "special-defense": 80,
+      "speed": 85
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/55.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/55.png"
+    },
+    "description": "Ses membres palmés et son corps parfaitement adapté font de lui un nageur exceptionnel.",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/23/",
+    "evolue_de": "psyduck"
+  },
+  {
+    "pokedex_num": 56,
+    "nom": "Férosinge",
+    "nom_anglais": "mankey",
+    "types": [
+      "fighting"
+    ],
+    "taille_m": 0.5,
+    "poids_kg": 28.0,
+    "stats": {
+      "hp": 40,
+      "attack": 80,
+      "defense": 35,
+      "special-attack": 35,
+      "special-defense": 45,
+      "speed": 70
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/56.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/56.png"
+    },
+    "description": "Ils vivent en colonies sylvestres. Quand un Férosinge s’énerve, toute la colonie suit son exemple.",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/24/",
+    "evolue_de": null
+  },
+  {
+    "pokedex_num": 57,
+    "nom": "Colossinge",
+    "nom_anglais": "primeape",
+    "types": [
+      "fighting"
+    ],
+    "taille_m": 1.0,
+    "poids_kg": 32.0,
+    "stats": {
+      "hp": 65,
+      "attack": 105,
+      "defense": 60,
+      "special-attack": 60,
+      "special-defense": 70,
+      "speed": 95
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/57.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/57.png"
+    },
+    "description": "Il grogne quand on le toise, rugit quand on s’enfuit et devient fou de rage quand on le frappe.",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/24/",
+    "evolue_de": "mankey"
+  },
+  {
+    "pokedex_num": 58,
+    "nom": "Caninos",
+    "nom_anglais": "growlithe",
+    "types": [
+      "fire"
+    ],
+    "taille_m": 0.7,
+    "poids_kg": 19.0,
+    "stats": {
+      "hp": 55,
+      "attack": 70,
+      "defense": 45,
+      "special-attack": 70,
+      "special-defense": 50,
+      "speed": 60
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/58.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/58.png"
+    },
+    "description": "Un Pokémon très loyal. Il restera immobile jusqu’à ce que son Dresseur lui donne un ordre.",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/25/",
+    "evolue_de": null
+  },
+  {
+    "pokedex_num": 59,
+    "nom": "Arcanin",
+    "nom_anglais": "arcanine",
+    "types": [
+      "fire"
+    ],
+    "taille_m": 1.9,
+    "poids_kg": 155.0,
+    "stats": {
+      "hp": 90,
+      "attack": 110,
+      "defense": 80,
+      "special-attack": 100,
+      "special-defense": 80,
+      "speed": 95
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/59.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/59.png"
+    },
+    "description": "Son port altier et son attitude fière ont depuis longtemps conquis le cœur des hommes.",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/25/",
+    "evolue_de": "growlithe"
+  },
+  {
+    "pokedex_num": 60,
+    "nom": "Ptitard",
+    "nom_anglais": "poliwag",
+    "types": [
+      "water"
+    ],
+    "taille_m": 0.6,
+    "poids_kg": 12.4,
+    "stats": {
+      "hp": 40,
+      "attack": 50,
+      "defense": 40,
+      "special-attack": 40,
+      "special-defense": 40,
+      "speed": 90
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/60.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/60.png"
+    },
+    "description": "Sa peau est si mince qu’on voit ses organes internes. Il tient à peine sur ses nouveaux pieds.",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/26/",
+    "evolue_de": null
+  },
+  {
+    "pokedex_num": 61,
+    "nom": "Têtarte",
+    "nom_anglais": "poliwhirl",
+    "types": [
+      "water"
+    ],
+    "taille_m": 1.0,
+    "poids_kg": 20.0,
+    "stats": {
+      "hp": 65,
+      "attack": 65,
+      "defense": 65,
+      "special-attack": 50,
+      "special-defense": 50,
+      "speed": 90
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/61.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/61.png"
+    },
+    "description": "La spirale qui orne son ventre ondule doucement. Celui qui la fixe est saisi d’une étrange torpeur.",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/26/",
+    "evolue_de": "poliwag"
+  },
+  {
+    "pokedex_num": 62,
+    "nom": "Tartard",
+    "nom_anglais": "poliwrath",
+    "types": [
+      "water",
+      "fighting"
+    ],
+    "taille_m": 1.3,
+    "poids_kg": 54.0,
+    "stats": {
+      "hp": 90,
+      "attack": 95,
+      "defense": 95,
+      "special-attack": 70,
+      "special-defense": 90,
+      "speed": 70
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/62.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/62.png"
+    },
+    "description": "Il possède de sacrés biscoteaux. Il peut parcourir sans relâche l’Océan Pacifique.",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/26/",
+    "evolue_de": "poliwhirl"
+  },
+  {
+    "pokedex_num": 63,
+    "nom": "Abra",
+    "nom_anglais": "abra",
+    "types": [
+      "psychic"
+    ],
+    "taille_m": 0.9,
+    "poids_kg": 19.5,
+    "stats": {
+      "hp": 25,
+      "attack": 20,
+      "defense": 15,
+      "special-attack": 105,
+      "special-defense": 55,
+      "speed": 90
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/63.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/63.png"
+    },
+    "description": "L’utilisation de ses pouvoirs mentaux le fatigue tellement qu’il dort 18 heures par jour.",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/27/",
+    "evolue_de": null
+  },
+  {
+    "pokedex_num": 64,
+    "nom": "Kadabra",
+    "nom_anglais": "kadabra",
+    "types": [
+      "psychic"
+    ],
+    "taille_m": 1.3,
+    "poids_kg": 56.5,
+    "stats": {
+      "hp": 40,
+      "attack": 35,
+      "defense": 30,
+      "special-attack": 120,
+      "special-defense": 70,
+      "speed": 105
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/64.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/64.png"
+    },
+    "description": "Il fixe sa cuillère d’argent afin de concentrer son esprit et d’émettre un maximum d’ondes alpha.",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/27/",
+    "evolue_de": "abra"
+  },
+  {
+    "pokedex_num": 65,
+    "nom": "Alakazam",
+    "nom_anglais": "alakazam",
+    "types": [
+      "psychic"
+    ],
+    "taille_m": 1.5,
+    "poids_kg": 48.0,
+    "stats": {
+      "hp": 55,
+      "attack": 50,
+      "defense": 45,
+      "special-attack": 135,
+      "special-defense": 95,
+      "speed": 120
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/65.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/65.png"
+    },
+    "description": "On dit que les cuillères qu’il tient en permanence ont été créées par la puissance de son esprit.",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/27/",
+    "evolue_de": "kadabra"
+  },
+  {
+    "pokedex_num": 66,
+    "nom": "Machoc",
+    "nom_anglais": "machop",
+    "types": [
+      "fighting"
+    ],
+    "taille_m": 0.8,
+    "poids_kg": 19.5,
+    "stats": {
+      "hp": 70,
+      "attack": 80,
+      "defense": 50,
+      "special-attack": 35,
+      "special-defense": 35,
+      "speed": 35
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/66.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/66.png"
+    },
+    "description": "Malgré sa petite taille, sa force lui permet de soulever plusieurs Racaillou à la fois.",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/28/",
+    "evolue_de": null
+  },
+  {
+    "pokedex_num": 67,
+    "nom": "Machopeur",
+    "nom_anglais": "machoke",
+    "types": [
+      "fighting"
+    ],
+    "taille_m": 1.5,
+    "poids_kg": 70.5,
+    "stats": {
+      "hp": 80,
+      "attack": 100,
+      "defense": 70,
+      "special-attack": 50,
+      "special-defense": 60,
+      "speed": 45
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/67.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/67.png"
+    },
+    "description": "Il soulève les plus lourdes charges avec plaisir et facilité. Il donne un coup de main tout en s’entraînant!",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/28/",
+    "evolue_de": "machop"
+  },
+  {
+    "pokedex_num": 68,
+    "nom": "Mackogneur",
+    "nom_anglais": "machamp",
+    "types": [
+      "fighting"
+    ],
+    "taille_m": 1.6,
+    "poids_kg": 130.0,
+    "stats": {
+      "hp": 90,
+      "attack": 130,
+      "defense": 80,
+      "special-attack": 65,
+      "special-defense": 85,
+      "speed": 55
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/68.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/68.png"
+    },
+    "description": "La puissance et la rapidité de ses quatre bras puissants font des ravages sur ses adversaires.",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/28/",
+    "evolue_de": "machoke"
+  },
+  {
+    "pokedex_num": 69,
+    "nom": "Chétiflor",
+    "nom_anglais": "bellsprout",
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "taille_m": 0.7,
+    "poids_kg": 4.0,
+    "stats": {
+      "hp": 50,
+      "attack": 75,
+      "defense": 35,
+      "special-attack": 70,
+      "special-defense": 30,
+      "speed": 40
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/69.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/69.png"
+    },
+    "description": "Il préfère les climats chauds et humides. Ses lianes peuvent capturer une proie en un clin d’œil.",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/29/",
+    "evolue_de": null
+  },
+  {
+    "pokedex_num": 70,
+    "nom": "Boustiflor",
+    "nom_anglais": "weepinbell",
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "taille_m": 1.0,
+    "poids_kg": 6.4,
+    "stats": {
+      "hp": 65,
+      "attack": 90,
+      "defense": 50,
+      "special-attack": 85,
+      "special-defense": 45,
+      "speed": 55
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/70.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/70.png"
+    },
+    "description": "Un Pokémon végétal. Il capture les proies étourdies en les endormant à l’aide d’une poudre toxique.",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/29/",
+    "evolue_de": "bellsprout"
+  },
+  {
+    "pokedex_num": 71,
+    "nom": "Empiflor",
+    "nom_anglais": "victreebel",
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "taille_m": 1.7,
+    "poids_kg": 15.5,
+    "stats": {
+      "hp": 80,
+      "attack": 105,
+      "defense": 65,
+      "special-attack": 100,
+      "special-defense": 70,
+      "speed": 70
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/71.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/71.png"
+    },
+    "description": "Sa bouche sécrète un fluide à l’odeur de miel, qui s’avère être un acide extrêmement corrosif.",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/29/",
+    "evolue_de": "weepinbell"
+  },
+  {
+    "pokedex_num": 72,
+    "nom": "Tentacool",
+    "nom_anglais": "tentacool",
+    "types": [
+      "water",
+      "poison"
+    ],
+    "taille_m": 0.9,
+    "poids_kg": 45.5,
+    "stats": {
+      "hp": 40,
+      "attack": 40,
+      "defense": 35,
+      "special-attack": 50,
+      "special-defense": 100,
+      "speed": 70
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/72.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/72.png"
+    },
+    "description": "Presque entièrement composé d’eau, son corps a tendance à se dessécher sur la terre ferme.",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/30/",
+    "evolue_de": null
+  },
+  {
+    "pokedex_num": 73,
+    "nom": "Tentacruel",
+    "nom_anglais": "tentacruel",
+    "types": [
+      "water",
+      "poison"
+    ],
+    "taille_m": 1.6,
+    "poids_kg": 55.0,
+    "stats": {
+      "hp": 80,
+      "attack": 70,
+      "defense": 65,
+      "special-attack": 80,
+      "special-defense": 120,
+      "speed": 100
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/73.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/73.png"
+    },
+    "description": "Ses 80 tentacules lui permettent d’emprisonner ses adversaires dans un redoutable filet venimeux.",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/30/",
+    "evolue_de": "tentacool"
+  },
+  {
+    "pokedex_num": 74,
+    "nom": "Racaillou",
+    "nom_anglais": "geodude",
+    "types": [
+      "rock",
+      "ground"
+    ],
+    "taille_m": 0.4,
+    "poids_kg": 20.0,
+    "stats": {
+      "hp": 40,
+      "attack": 80,
+      "defense": 100,
+      "special-attack": 30,
+      "special-defense": 30,
+      "speed": 20
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/74.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/74.png"
+    },
+    "description": "Au repos, rien ne le distingue d’un vulgaire caillou. Malheur à ceux qui lui marchent dessus par mégarde!",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/31/",
+    "evolue_de": null
+  },
+  {
+    "pokedex_num": 75,
+    "nom": "Gravalanch",
+    "nom_anglais": "graveler",
+    "types": [
+      "rock",
+      "ground"
+    ],
+    "taille_m": 1.0,
+    "poids_kg": 105.0,
+    "stats": {
+      "hp": 55,
+      "attack": 95,
+      "defense": 115,
+      "special-attack": 45,
+      "special-defense": 45,
+      "speed": 35
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/75.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/75.png"
+    },
+    "description": "Il dévale les montagnes pour se déplacer. Une fois qu’il a pris tout son élan, dur dur de l’arrêter!",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/31/",
+    "evolue_de": "geodude"
+  },
+  {
+    "pokedex_num": 76,
+    "nom": "Grolem",
+    "nom_anglais": "golem",
+    "types": [
+      "rock",
+      "ground"
+    ],
+    "taille_m": 1.4,
+    "poids_kg": 300.0,
+    "stats": {
+      "hp": 80,
+      "attack": 120,
+      "defense": 130,
+      "special-attack": 55,
+      "special-defense": 65,
+      "speed": 45
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/76.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/76.png"
+    },
+    "description": "Aucun explosif ne pourrait entamer sa carapace de pierre. Il mue une fois par an.",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/31/",
+    "evolue_de": "graveler"
+  },
+  {
+    "pokedex_num": 77,
+    "nom": "Ponyta",
+    "nom_anglais": "ponyta",
+    "types": [
+      "fire"
+    ],
+    "taille_m": 1.0,
+    "poids_kg": 30.0,
+    "stats": {
+      "hp": 50,
+      "attack": 85,
+      "defense": 55,
+      "special-attack": 65,
+      "special-defense": 65,
+      "speed": 90
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/77.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/77.png"
+    },
+    "description": "Chancelantes à la naissance, ses pattes deviennent très vite sûres et solides à force de galoper.",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/32/",
+    "evolue_de": null
+  },
+  {
+    "pokedex_num": 78,
+    "nom": "Galopa",
+    "nom_anglais": "rapidash",
+    "types": [
+      "fire"
+    ],
+    "taille_m": 1.7,
+    "poids_kg": 95.0,
+    "stats": {
+      "hp": 65,
+      "attack": 100,
+      "defense": 70,
+      "special-attack": 80,
+      "special-defense": 80,
+      "speed": 105
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/78.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/78.png"
+    },
+    "description": "Au grand galop, sa crinière de feu disperse au vent une myriade d’étincelles ardentes.",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/32/",
+    "evolue_de": "ponyta"
+  },
+  {
+    "pokedex_num": 79,
+    "nom": "Ramoloss",
+    "nom_anglais": "slowpoke",
+    "types": [
+      "water",
+      "psychic"
+    ],
+    "taille_m": 1.2,
+    "poids_kg": 36.0,
+    "stats": {
+      "hp": 90,
+      "attack": 65,
+      "defense": 65,
+      "special-attack": 40,
+      "special-defense": 40,
+      "speed": 15
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/79.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/79.png"
+    },
+    "description": "Bien que lent, c’est un pêcheur adroit qui utilise sa queue. Elle est insensible aux morsures.",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/33/",
+    "evolue_de": null
+  },
+  {
+    "pokedex_num": 80,
+    "nom": "Flagadoss",
+    "nom_anglais": "slowbro",
+    "types": [
+      "water",
+      "psychic"
+    ],
+    "taille_m": 1.6,
+    "poids_kg": 78.5,
+    "stats": {
+      "hp": 95,
+      "attack": 75,
+      "defense": 110,
+      "special-attack": 100,
+      "special-defense": 80,
+      "speed": 30
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/80.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/80.png"
+    },
+    "description": "Ce grand benêt connaît des éclairs de lucidité lorsque le Kokiyas de sa queue se met à mordre.",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/33/",
+    "evolue_de": "slowpoke"
+  },
+  {
+    "pokedex_num": 81,
+    "nom": "Magnéti",
+    "nom_anglais": "magnemite",
+    "types": [
+      "electric",
+      "steel"
+    ],
+    "taille_m": 0.3,
+    "poids_kg": 6.0,
+    "stats": {
+      "hp": 25,
+      "attack": 35,
+      "defense": 70,
+      "special-attack": 95,
+      "special-defense": 55,
+      "speed": 45
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/81.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/81.png"
+    },
+    "description": "Plus la rotation de ses extrémités est rapide, plus la force du champ magnétique qu’il génère est grande.",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/34/",
+    "evolue_de": null
+  },
+  {
+    "pokedex_num": 82,
+    "nom": "Magnéton",
+    "nom_anglais": "magneton",
+    "types": [
+      "electric",
+      "steel"
+    ],
+    "taille_m": 1.0,
+    "poids_kg": 60.0,
+    "stats": {
+      "hp": 50,
+      "attack": 60,
+      "defense": 95,
+      "special-attack": 120,
+      "special-defense": 70,
+      "speed": 70
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/82.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/82.png"
+    },
+    "description": "Des groupes apparaissent si des taches solaires couvrent le soleil. Ils brouillent les télévisions.",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/34/",
+    "evolue_de": "magnemite"
+  },
+  {
+    "pokedex_num": 83,
+    "nom": "Canarticho",
+    "nom_anglais": "farfetchd",
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "taille_m": 0.8,
+    "poids_kg": 15.0,
+    "stats": {
+      "hp": 52,
+      "attack": 90,
+      "defense": 55,
+      "special-attack": 58,
+      "special-defense": 62,
+      "speed": 60
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/83.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/83.png"
+    },
+    "description": "Il ne peut pas vivre sans son légume, c’est pourquoi il le protégera au péril de sa vie.",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/35/",
+    "evolue_de": null
+  },
+  {
+    "pokedex_num": 84,
+    "nom": "Doduo",
+    "nom_anglais": "doduo",
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "taille_m": 1.4,
+    "poids_kg": 39.2,
+    "stats": {
+      "hp": 35,
+      "attack": 85,
+      "defense": 45,
+      "special-attack": 35,
+      "special-defense": 35,
+      "speed": 75
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/84.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/84.png"
+    },
+    "description": "Ses deux cerveaux semblent communiquer leurs émotions grâce à un lien télépathique.",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/36/",
+    "evolue_de": null
+  },
+  {
+    "pokedex_num": 85,
+    "nom": "Dodrio",
+    "nom_anglais": "dodrio",
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "taille_m": 1.8,
+    "poids_kg": 85.2,
+    "stats": {
+      "hp": 60,
+      "attack": 110,
+      "defense": 70,
+      "special-attack": 60,
+      "special-defense": 60,
+      "speed": 110
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/85.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/85.png"
+    },
+    "description": "Quand Doduo connaît cette étrange évolution, l’une de ses têtes se dédouble. Il atteint les 60 km/h.",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/36/",
+    "evolue_de": "doduo"
+  },
+  {
+    "pokedex_num": 86,
+    "nom": "Otaria",
+    "nom_anglais": "seel",
+    "types": [
+      "water"
+    ],
+    "taille_m": 1.1,
+    "poids_kg": 90.0,
+    "stats": {
+      "hp": 65,
+      "attack": 45,
+      "defense": 55,
+      "special-attack": 45,
+      "special-defense": 70,
+      "speed": 45
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/86.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/86.png"
+    },
+    "description": "Un habitant des icebergs. En mer, il utilise la corne sur sa tête pour briser la banquise.",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/37/",
+    "evolue_de": null
+  },
+  {
+    "pokedex_num": 87,
+    "nom": "Lamantine",
+    "nom_anglais": "dewgong",
+    "types": [
+      "water",
+      "ice"
+    ],
+    "taille_m": 1.7,
+    "poids_kg": 120.0,
+    "stats": {
+      "hp": 90,
+      "attack": 70,
+      "defense": 80,
+      "special-attack": 70,
+      "special-defense": 95,
+      "speed": 70
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/87.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/87.png"
+    },
+    "description": "Son corps est couvert d’un grand manteau blanc qui, dans la neige, le dissimule aux yeux des prédateurs.",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/37/",
+    "evolue_de": "seel"
+  },
+  {
+    "pokedex_num": 88,
+    "nom": "Tadmorv",
+    "nom_anglais": "grimer",
+    "types": [
+      "poison"
+    ],
+    "taille_m": 0.9,
+    "poids_kg": 30.0,
+    "stats": {
+      "hp": 80,
+      "attack": 80,
+      "defense": 50,
+      "special-attack": 40,
+      "special-defense": 50,
+      "speed": 25
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/88.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/88.png"
+    },
+    "description": "Il est né d’un torrent de boue exposé aux rayons X de la lune. Il vit dans les ordures.",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/38/",
+    "evolue_de": null
+  },
+  {
+    "pokedex_num": 89,
+    "nom": "Grotadmorv",
+    "nom_anglais": "muk",
+    "types": [
+      "poison"
+    ],
+    "taille_m": 1.2,
+    "poids_kg": 30.0,
+    "stats": {
+      "hp": 105,
+      "attack": 105,
+      "defense": 75,
+      "special-attack": 65,
+      "special-defense": 100,
+      "speed": 50
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/89.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/89.png"
+    },
+    "description": "Son corps exsude un fluide toxique qui tue instantanément les plantes et les arbres au contact.",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/38/",
+    "evolue_de": "grimer"
+  },
+  {
+    "pokedex_num": 90,
+    "nom": "Kokiyas",
+    "nom_anglais": "shellder",
+    "types": [
+      "water"
+    ],
+    "taille_m": 0.3,
+    "poids_kg": 4.0,
+    "stats": {
+      "hp": 30,
+      "attack": 65,
+      "defense": 100,
+      "special-attack": 45,
+      "special-defense": 25,
+      "speed": 40
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/90.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/90.png"
+    },
+    "description": "Il nage à reculons en ouvrant et en refermant ses deux coquilles. Il laisse traîner sa large langue.",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/39/",
+    "evolue_de": null
+  },
+  {
+    "pokedex_num": 91,
+    "nom": "Crustabri",
+    "nom_anglais": "cloyster",
+    "types": [
+      "water",
+      "ice"
+    ],
+    "taille_m": 1.5,
+    "poids_kg": 132.5,
+    "stats": {
+      "hp": 50,
+      "attack": 95,
+      "defense": 180,
+      "special-attack": 85,
+      "special-defense": 45,
+      "speed": 70
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/91.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/91.png"
+    },
+    "description": "Il se défend en fermant sa coquille et projette des piquants qui repoussent ses agresseurs.",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/39/",
+    "evolue_de": "shellder"
+  },
+  {
+    "pokedex_num": 92,
+    "nom": "Fantominus",
+    "nom_anglais": "gastly",
+    "types": [
+      "ghost",
+      "poison"
+    ],
+    "taille_m": 1.3,
+    "poids_kg": 0.1,
+    "stats": {
+      "hp": 30,
+      "attack": 35,
+      "defense": 30,
+      "special-attack": 100,
+      "special-defense": 35,
+      "speed": 80
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/92.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/92.png"
+    },
+    "description": "Son corps composé de gaz toxique pourrait asphyxier n’importe qui en quelques secondes.",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/40/",
+    "evolue_de": null
+  },
+  {
+    "pokedex_num": 93,
+    "nom": "Spectrum",
+    "nom_anglais": "haunter",
+    "types": [
+      "ghost",
+      "poison"
+    ],
+    "taille_m": 1.6,
+    "poids_kg": 0.1,
+    "stats": {
+      "hp": 45,
+      "attack": 50,
+      "defense": 45,
+      "special-attack": 115,
+      "special-defense": 55,
+      "speed": 95
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/93.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/93.png"
+    },
+    "description": "Il adore se tapir dans l’ombre et faire frissonner ses proies en leur touchant l’épaule.",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/40/",
+    "evolue_de": "gastly"
+  },
+  {
+    "pokedex_num": 94,
+    "nom": "Ectoplasma",
+    "nom_anglais": "gengar",
+    "types": [
+      "ghost",
+      "poison"
+    ],
+    "taille_m": 1.5,
+    "poids_kg": 40.5,
+    "stats": {
+      "hp": 60,
+      "attack": 65,
+      "defense": 60,
+      "special-attack": 130,
+      "special-defense": 75,
+      "speed": 110
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/94.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/94.png"
+    },
+    "description": "Si vous croisez un regard inquiétant qui perce la nuit, c’est sûrement un Ectoplasma.",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/40/",
+    "evolue_de": "haunter"
+  },
+  {
+    "pokedex_num": 95,
+    "nom": "Onix",
+    "nom_anglais": "onix",
+    "types": [
+      "rock",
+      "ground"
+    ],
+    "taille_m": 8.8,
+    "poids_kg": 210.0,
+    "stats": {
+      "hp": 35,
+      "attack": 45,
+      "defense": 160,
+      "special-attack": 30,
+      "special-defense": 45,
+      "speed": 70
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/95.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/95.png"
+    },
+    "description": "Il se nourrit des pierres qu’il rencontre en creusant le sol. Il peut creuser à 80 km/h!",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/41/",
+    "evolue_de": null
+  },
+  {
+    "pokedex_num": 96,
+    "nom": "Soporifik",
+    "nom_anglais": "drowzee",
+    "types": [
+      "psychic"
+    ],
+    "taille_m": 1.0,
+    "poids_kg": 32.4,
+    "stats": {
+      "hp": 60,
+      "attack": 48,
+      "defense": 45,
+      "special-attack": 43,
+      "special-defense": 90,
+      "speed": 42
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/96.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/96.png"
+    },
+    "description": "Son grand nez lui permet de lire les rêves d’autrui. Il adore les songes amusants.",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/42/",
+    "evolue_de": null
+  },
+  {
+    "pokedex_num": 97,
+    "nom": "Hypnomade",
+    "nom_anglais": "hypno",
+    "types": [
+      "psychic"
+    ],
+    "taille_m": 1.6,
+    "poids_kg": 75.6,
+    "stats": {
+      "hp": 85,
+      "attack": 73,
+      "defense": 70,
+      "special-attack": 73,
+      "special-defense": 115,
+      "speed": 67
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/97.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/97.png"
+    },
+    "description": "La vue de son pendule oscillant endort en trois secondes, même quand on vient de se réveiller.",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/42/",
+    "evolue_de": "drowzee"
+  },
+  {
+    "pokedex_num": 98,
+    "nom": "Krabby",
+    "nom_anglais": "krabby",
+    "types": [
+      "water"
+    ],
+    "taille_m": 0.4,
+    "poids_kg": 6.5,
+    "stats": {
+      "hp": 30,
+      "attack": 105,
+      "defense": 90,
+      "special-attack": 25,
+      "special-defense": 25,
+      "speed": 50
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/98.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/98.png"
+    },
+    "description": "Il creuse son terrier sur des plages sablonneuses. Ses pinces repoussent si on les brise.",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/43/",
+    "evolue_de": null
+  },
+  {
+    "pokedex_num": 99,
+    "nom": "Krabboss",
+    "nom_anglais": "kingler",
+    "types": [
+      "water"
+    ],
+    "taille_m": 1.3,
+    "poids_kg": 60.0,
+    "stats": {
+      "hp": 55,
+      "attack": 130,
+      "defense": 115,
+      "special-attack": 50,
+      "special-defense": 50,
+      "speed": 75
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/99.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/99.png"
+    },
+    "description": "Sa grande pince possède une puissance de 10 000 chevaux. Son poids la rend difficile à manier.",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/43/",
+    "evolue_de": "krabby"
+  },
+  {
+    "pokedex_num": 100,
+    "nom": "Voltorbe",
+    "nom_anglais": "voltorb",
+    "types": [
+      "electric"
+    ],
+    "taille_m": 0.5,
+    "poids_kg": 10.4,
+    "stats": {
+      "hp": 40,
+      "attack": 30,
+      "defense": 50,
+      "special-attack": 55,
+      "special-defense": 55,
+      "speed": 100
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/100.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/100.png"
+    },
+    "description": "Il ressemble à une Poké Ball. Ce Pokémon dangereux peut exploser ou s’électrifier au toucher.",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/44/",
+    "evolue_de": null
+  },
+  {
+    "pokedex_num": 101,
+    "nom": "Électrode",
+    "nom_anglais": "electrode",
+    "types": [
+      "electric"
+    ],
+    "taille_m": 1.2,
+    "poids_kg": 66.6,
+    "stats": {
+      "hp": 60,
+      "attack": 50,
+      "defense": 70,
+      "special-attack": 80,
+      "special-defense": 80,
+      "speed": 150
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/101.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/101.png"
+    },
+    "description": "Il se laisse porter par les vents lorsque son corps est gonflé d’électricité à en éclater.",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/44/",
+    "evolue_de": "voltorb"
+  },
+  {
+    "pokedex_num": 102,
+    "nom": "Noeunoeuf",
+    "nom_anglais": "exeggcute",
+    "types": [
+      "grass",
+      "psychic"
+    ],
+    "taille_m": 0.4,
+    "poids_kg": 2.5,
+    "stats": {
+      "hp": 60,
+      "attack": 40,
+      "defense": 80,
+      "special-attack": 60,
+      "special-defense": 45,
+      "speed": 40
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/102.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/102.png"
+    },
+    "description": "Ces six œufs communiquent par télépathie. Ils peuvent se réunir rapidement si on les sépare.",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/45/",
+    "evolue_de": null
+  },
+  {
+    "pokedex_num": 103,
+    "nom": "Noadkoko",
+    "nom_anglais": "exeggutor",
+    "types": [
+      "grass",
+      "psychic"
+    ],
+    "taille_m": 2.0,
+    "poids_kg": 120.0,
+    "stats": {
+      "hp": 95,
+      "attack": 95,
+      "defense": 85,
+      "special-attack": 125,
+      "special-defense": 75,
+      "speed": 55
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/103.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/103.png"
+    },
+    "description": "On l’appelle “jungle sur pattes”. Si une tête devient trop grosse, elle tombe et produit un Noeunoeuf.",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/45/",
+    "evolue_de": "exeggcute"
+  },
+  {
+    "pokedex_num": 104,
+    "nom": "Osselait",
+    "nom_anglais": "cubone",
+    "types": [
+      "ground"
+    ],
+    "taille_m": 0.4,
+    "poids_kg": 6.5,
+    "stats": {
+      "hp": 50,
+      "attack": 50,
+      "defense": 95,
+      "special-attack": 40,
+      "special-defense": 50,
+      "speed": 35
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/104.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/104.png"
+    },
+    "description": "Il pleure en pensant à sa mère disparue, et ses larmes résonnent dans son crâne creux.",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/46/",
+    "evolue_de": null
+  },
+  {
+    "pokedex_num": 105,
+    "nom": "Ossatueur",
+    "nom_anglais": "marowak",
+    "types": [
+      "ground"
+    ],
+    "taille_m": 1.0,
+    "poids_kg": 45.0,
+    "stats": {
+      "hp": 60,
+      "attack": 80,
+      "defense": 110,
+      "special-attack": 50,
+      "special-defense": 80,
+      "speed": 45
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/105.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/105.png"
+    },
+    "description": "Ce Pokémon sauvage possède des os depuis sa naissance. Il s’en sert pour combattre avec dextérité.",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/46/",
+    "evolue_de": "cubone"
+  },
+  {
+    "pokedex_num": 106,
+    "nom": "Kicklee",
+    "nom_anglais": "hitmonlee",
+    "types": [
+      "fighting"
+    ],
+    "taille_m": 1.5,
+    "poids_kg": 49.8,
+    "stats": {
+      "hp": 50,
+      "attack": 120,
+      "defense": 53,
+      "special-attack": 35,
+      "special-defense": 110,
+      "speed": 87
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/106.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/106.png"
+    },
+    "description": "Ses pattes élastiques s’allongent, ce qui ne manque jamais de surprendre au premier combat.",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/47/",
+    "evolue_de": "tyrogue"
+  },
+  {
+    "pokedex_num": 107,
+    "nom": "Tygnon",
+    "nom_anglais": "hitmonchan",
+    "types": [
+      "fighting"
+    ],
+    "taille_m": 1.4,
+    "poids_kg": 50.2,
+    "stats": {
+      "hp": 50,
+      "attack": 105,
+      "defense": 79,
+      "special-attack": 35,
+      "special-defense": 110,
+      "speed": 76
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/107.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/107.png"
+    },
+    "description": "Même le béton cède sous ses  poings dévastateurs. Au combat, il s’essouffle au bout de 3 minutes.",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/47/",
+    "evolue_de": "tyrogue"
+  },
+  {
+    "pokedex_num": 108,
+    "nom": "Excelangue",
+    "nom_anglais": "lickitung",
+    "types": [
+      "normal"
+    ],
+    "taille_m": 1.2,
+    "poids_kg": 65.5,
+    "stats": {
+      "hp": 90,
+      "attack": 55,
+      "defense": 75,
+      "special-attack": 60,
+      "special-defense": 75,
+      "speed": 30
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/108.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/108.png"
+    },
+    "description": "Quand il déploie sa langue de près de deux mètres, sa queue s’agite. Elles seraient reliées entre elles.",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/48/",
+    "evolue_de": null
+  },
+  {
+    "pokedex_num": 109,
+    "nom": "Smogo",
+    "nom_anglais": "koffing",
+    "types": [
+      "poison"
+    ],
+    "taille_m": 0.6,
+    "poids_kg": 1.0,
+    "stats": {
+      "hp": 40,
+      "attack": 65,
+      "defense": 95,
+      "special-attack": 60,
+      "special-defense": 45,
+      "speed": 35
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/109.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/109.png"
+    },
+    "description": "Il flotte en retenant des gaz plus légers que l’air. Ceux-ci sont explosifs, en plus d’être fétides.",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/49/",
+    "evolue_de": null
+  },
+  {
+    "pokedex_num": 110,
+    "nom": "Smogogo",
+    "nom_anglais": "weezing",
+    "types": [
+      "poison"
+    ],
+    "taille_m": 1.2,
+    "poids_kg": 9.5,
+    "stats": {
+      "hp": 65,
+      "attack": 90,
+      "defense": 120,
+      "special-attack": 85,
+      "special-defense": 70,
+      "speed": 60
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/110.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/110.png"
+    },
+    "description": "Il grandit en absorbant les gaz des détritus. Des triplés existent, bien qu’ils soient fort rares.",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/49/",
+    "evolue_de": "koffing"
+  },
+  {
+    "pokedex_num": 111,
+    "nom": "Rhinocorne",
+    "nom_anglais": "rhyhorn",
+    "types": [
+      "ground",
+      "rock"
+    ],
+    "taille_m": 1.0,
+    "poids_kg": 115.0,
+    "stats": {
+      "hp": 80,
+      "attack": 85,
+      "defense": 95,
+      "special-attack": 30,
+      "special-defense": 30,
+      "speed": 25
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/111.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/111.png"
+    },
+    "description": "Ses puissantes charges pourraient démolir n’importe quel bâtiment. Dommage qu’il soit stupide.",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/50/",
+    "evolue_de": null
+  },
+  {
+    "pokedex_num": 112,
+    "nom": "Rhinoféros",
+    "nom_anglais": "rhydon",
+    "types": [
+      "ground",
+      "rock"
+    ],
+    "taille_m": 1.9,
+    "poids_kg": 120.0,
+    "stats": {
+      "hp": 105,
+      "attack": 130,
+      "defense": 120,
+      "special-attack": 45,
+      "special-defense": 45,
+      "speed": 40
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/112.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/112.png"
+    },
+    "description": "La station debout a libéré ses pattes avant et l’a rendu plus intelligent, mais il est distrait.",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/50/",
+    "evolue_de": "rhyhorn"
+  },
+  {
+    "pokedex_num": 113,
+    "nom": "Leveinard",
+    "nom_anglais": "chansey",
+    "types": [
+      "normal"
+    ],
+    "taille_m": 1.1,
+    "poids_kg": 34.6,
+    "stats": {
+      "hp": 250,
+      "attack": 5,
+      "defense": 5,
+      "special-attack": 35,
+      "special-defense": 105,
+      "speed": 50
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/113.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/113.png"
+    },
+    "description": "Ce Pokémon très serviable distribue ses œufs hautement nutritifs aux humains et Pokémon blessés.",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/51/",
+    "evolue_de": "happiny"
+  },
+  {
+    "pokedex_num": 114,
+    "nom": "Saquedeneu",
+    "nom_anglais": "tangela",
+    "types": [
+      "grass"
+    ],
+    "taille_m": 1.0,
+    "poids_kg": 35.0,
+    "stats": {
+      "hp": 65,
+      "attack": 55,
+      "defense": 115,
+      "special-attack": 100,
+      "special-defense": 40,
+      "speed": 60
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/114.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/114.png"
+    },
+    "description": "Il se cache derrière des lianes bleues recouvertes d’un fin duvet. Il est chatouilleux.",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/52/",
+    "evolue_de": null
+  },
+  {
+    "pokedex_num": 115,
+    "nom": "Kangourex",
+    "nom_anglais": "kangaskhan",
+    "types": [
+      "normal"
+    ],
+    "taille_m": 2.2,
+    "poids_kg": 80.0,
+    "stats": {
+      "hp": 105,
+      "attack": 95,
+      "defense": 80,
+      "special-attack": 40,
+      "special-defense": 80,
+      "speed": 90
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/115.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/115.png"
+    },
+    "description": "Il élève ses petits dans sa poche ventrale. Il attend d’être en lieu sûr pour les laisser jouer dehors.",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/53/",
+    "evolue_de": null
+  },
+  {
+    "pokedex_num": 116,
+    "nom": "Hypotrempe",
+    "nom_anglais": "horsea",
+    "types": [
+      "water"
+    ],
+    "taille_m": 0.4,
+    "poids_kg": 8.0,
+    "stats": {
+      "hp": 30,
+      "attack": 40,
+      "defense": 70,
+      "special-attack": 70,
+      "special-defense": 25,
+      "speed": 60
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/116.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/116.png"
+    },
+    "description": "Il niche à l’ombre du corail. Quand il se sent menacé, il disparaît dans un nuage d’encre opaque.",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/54/",
+    "evolue_de": null
+  },
+  {
+    "pokedex_num": 117,
+    "nom": "Hypocéan",
+    "nom_anglais": "seadra",
+    "types": [
+      "water"
+    ],
+    "taille_m": 1.2,
+    "poids_kg": 25.0,
+    "stats": {
+      "hp": 55,
+      "attack": 65,
+      "defense": 95,
+      "special-attack": 95,
+      "special-defense": 45,
+      "speed": 85
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/117.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/117.png"
+    },
+    "description": "Son épine dorsale le protège. Ses os et ses nageoires sont très prisés en médecine traditionnelle.",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/54/",
+    "evolue_de": "horsea"
+  },
+  {
+    "pokedex_num": 118,
+    "nom": "Poissirène",
+    "nom_anglais": "goldeen",
+    "types": [
+      "water"
+    ],
+    "taille_m": 0.6,
+    "poids_kg": 15.0,
+    "stats": {
+      "hp": 45,
+      "attack": 67,
+      "defense": 60,
+      "special-attack": 35,
+      "special-defense": 50,
+      "speed": 63
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/118.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/118.png"
+    },
+    "description": "Malgré son élégance quand il nage, ses coups de corne sont redoutables.",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/55/",
+    "evolue_de": null
+  },
+  {
+    "pokedex_num": 119,
+    "nom": "Poissoroy",
+    "nom_anglais": "seaking",
+    "types": [
+      "water"
+    ],
+    "taille_m": 1.3,
+    "poids_kg": 39.0,
+    "stats": {
+      "hp": 80,
+      "attack": 92,
+      "defense": 65,
+      "special-attack": 65,
+      "special-defense": 80,
+      "speed": 68
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/119.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/119.png"
+    },
+    "description": "En automne, à la saison des amours, il fait des réserves de graisse et arbore des couleurs chatoyantes.",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/55/",
+    "evolue_de": "goldeen"
+  },
+  {
+    "pokedex_num": 120,
+    "nom": "Stari",
+    "nom_anglais": "staryu",
+    "types": [
+      "water"
+    ],
+    "taille_m": 0.8,
+    "poids_kg": 34.5,
+    "stats": {
+      "hp": 30,
+      "attack": 45,
+      "defense": 55,
+      "special-attack": 70,
+      "special-defense": 55,
+      "speed": 85
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/120.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/120.png"
+    },
+    "description": "Même amoché, son corps se régénère tant que le noyau rouge est intact. Le noyau s’illumine à minuit.",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/56/",
+    "evolue_de": null
+  },
+  {
+    "pokedex_num": 121,
+    "nom": "Staross",
+    "nom_anglais": "starmie",
+    "types": [
+      "water",
+      "psychic"
+    ],
+    "taille_m": 1.1,
+    "poids_kg": 80.0,
+    "stats": {
+      "hp": 60,
+      "attack": 75,
+      "defense": 85,
+      "special-attack": 100,
+      "special-defense": 85,
+      "speed": 115
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/121.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/121.png"
+    },
+    "description": "Un noyau rouge trône en son centre. Il envoie des signaux radio mystérieux vers le ciel nocturne.",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/56/",
+    "evolue_de": "staryu"
+  },
+  {
+    "pokedex_num": 122,
+    "nom": "M. Mime",
+    "nom_anglais": "mr-mime",
+    "types": [
+      "psychic",
+      "fairy"
+    ],
+    "taille_m": 1.3,
+    "poids_kg": 54.5,
+    "stats": {
+      "hp": 40,
+      "attack": 45,
+      "defense": 65,
+      "special-attack": 100,
+      "special-defense": 120,
+      "speed": 90
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/122.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/122.png"
+    },
+    "description": "En modifiant les molécules de l’air du bout de ses doigts, il parvient à créer un mur invisible devant lui.",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/57/",
+    "evolue_de": "mime-jr"
+  },
+  {
+    "pokedex_num": 123,
+    "nom": "Insécateur",
+    "nom_anglais": "scyther",
+    "types": [
+      "bug",
+      "flying"
+    ],
+    "taille_m": 1.5,
+    "poids_kg": 56.0,
+    "stats": {
+      "hp": 70,
+      "attack": 110,
+      "defense": 80,
+      "special-attack": 55,
+      "special-defense": 80,
+      "speed": 105
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/123.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/123.png"
+    },
+    "description": "À force de trancher des objets solides, les faux de ses bras sont très aiguisées.",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/58/",
+    "evolue_de": null
+  },
+  {
+    "pokedex_num": 124,
+    "nom": "Lippoutou",
+    "nom_anglais": "jynx",
+    "types": [
+      "ice",
+      "psychic"
+    ],
+    "taille_m": 1.4,
+    "poids_kg": 40.6,
+    "stats": {
+      "hp": 65,
+      "attack": 50,
+      "defense": 35,
+      "special-attack": 115,
+      "special-defense": 95,
+      "speed": 95
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/124.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/124.png"
+    },
+    "description": "Son cri ressemble à des paroles humaines. Mais nul n’est jamais parvenu à les comprendre.",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/59/",
+    "evolue_de": "smoochum"
+  },
+  {
+    "pokedex_num": 125,
+    "nom": "Élektek",
+    "nom_anglais": "electabuzz",
+    "types": [
+      "electric"
+    ],
+    "taille_m": 1.1,
+    "poids_kg": 30.0,
+    "stats": {
+      "hp": 65,
+      "attack": 83,
+      "defense": 57,
+      "special-attack": 95,
+      "special-defense": 85,
+      "speed": 105
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/125.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/125.png"
+    },
+    "description": "Il fait tournoyer ses bras pour donner de la force à ses coups. Profitez-en pour filer!",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/60/",
+    "evolue_de": "elekid"
+  },
+  {
+    "pokedex_num": 126,
+    "nom": "Magmar",
+    "nom_anglais": "magmar",
+    "types": [
+      "fire"
+    ],
+    "taille_m": 1.3,
+    "poids_kg": 44.5,
+    "stats": {
+      "hp": 65,
+      "attack": 95,
+      "defense": 57,
+      "special-attack": 100,
+      "special-defense": 85,
+      "speed": 93
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/126.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/126.png"
+    },
+    "description": "Quand il respire profondément, des vagues de chaleur émanent de son corps et le rendent difficile à voir.",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/61/",
+    "evolue_de": "magby"
+  },
+  {
+    "pokedex_num": 127,
+    "nom": "Scarabrute",
+    "nom_anglais": "pinsir",
+    "types": [
+      "bug"
+    ],
+    "taille_m": 1.5,
+    "poids_kg": 55.0,
+    "stats": {
+      "hp": 65,
+      "attack": 125,
+      "defense": 100,
+      "special-attack": 55,
+      "special-defense": 70,
+      "speed": 85
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/127.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/127.png"
+    },
+    "description": "Il serre les proies dans ses pinces pour les trancher en deux. S’il n’y arrive pas, il les jette au loin.",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/62/",
+    "evolue_de": null
+  },
+  {
+    "pokedex_num": 128,
+    "nom": "Tauros",
+    "nom_anglais": "tauros",
+    "types": [
+      "normal"
+    ],
+    "taille_m": 1.4,
+    "poids_kg": 88.4,
+    "stats": {
+      "hp": 75,
+      "attack": 100,
+      "defense": 95,
+      "special-attack": 40,
+      "special-defense": 70,
+      "speed": 110
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/128.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/128.png"
+    },
+    "description": "Après avoir choisi sa cible, il fonce dessus tête baissée. Il est réputé pour sa nature violente.",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/63/",
+    "evolue_de": null
+  },
+  {
+    "pokedex_num": 129,
+    "nom": "Magicarpe",
+    "nom_anglais": "magikarp",
+    "types": [
+      "water"
+    ],
+    "taille_m": 0.9,
+    "poids_kg": 10.0,
+    "stats": {
+      "hp": 20,
+      "attack": 10,
+      "defense": 55,
+      "special-attack": 15,
+      "special-defense": 20,
+      "speed": 80
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/129.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/129.png"
+    },
+    "description": "Un vénérable Magicarpe peut franchir une montagne en utilisant Trempette. Mais c’est tout...",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/64/",
+    "evolue_de": null
+  },
+  {
+    "pokedex_num": 130,
+    "nom": "Léviator",
+    "nom_anglais": "gyarados",
+    "types": [
+      "water",
+      "flying"
+    ],
+    "taille_m": 6.5,
+    "poids_kg": 235.0,
+    "stats": {
+      "hp": 95,
+      "attack": 125,
+      "defense": 79,
+      "special-attack": 60,
+      "special-defense": 100,
+      "speed": 81
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/130.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/130.png"
+    },
+    "description": "Quand il se laisse emporter par la rage, il ne se calme qu’après avoir détruit tout ce qui l’entoure.",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/64/",
+    "evolue_de": "magikarp"
+  },
+  {
+    "pokedex_num": 131,
+    "nom": "Lokhlass",
+    "nom_anglais": "lapras",
+    "types": [
+      "water",
+      "ice"
+    ],
+    "taille_m": 2.5,
+    "poids_kg": 220.0,
+    "stats": {
+      "hp": 130,
+      "attack": 85,
+      "defense": 80,
+      "special-attack": 85,
+      "special-defense": 95,
+      "speed": 60
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/131.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/131.png"
+    },
+    "description": "Il aime naviguer en portant des humains et des Pokémon sur son dos. Il comprend le langage humain.",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/65/",
+    "evolue_de": null
+  },
+  {
+    "pokedex_num": 132,
+    "nom": "Métamorph",
+    "nom_anglais": "ditto",
+    "types": [
+      "normal"
+    ],
+    "taille_m": 0.3,
+    "poids_kg": 4.0,
+    "stats": {
+      "hp": 48,
+      "attack": 48,
+      "defense": 48,
+      "special-attack": 48,
+      "special-defense": 48,
+      "speed": 48
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/132.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/132.png"
+    },
+    "description": "Il a la capacité de modifier sa structure cellulaire pour prendre l’apparence de ce qu’il voit.",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/66/",
+    "evolue_de": null
+  },
+  {
+    "pokedex_num": 133,
+    "nom": "Évoli",
+    "nom_anglais": "eevee",
+    "types": [
+      "normal"
+    ],
+    "taille_m": 0.3,
+    "poids_kg": 6.5,
+    "stats": {
+      "hp": 55,
+      "attack": 55,
+      "defense": 50,
+      "special-attack": 45,
+      "special-defense": 65,
+      "speed": 55
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/133.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/133.png"
+    },
+    "description": "Son ADN particulier lui permet de s’adapter très rapidement à son environnement.",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/67/",
+    "evolue_de": null
+  },
+  {
+    "pokedex_num": 134,
+    "nom": "Aquali",
+    "nom_anglais": "vaporeon",
+    "types": [
+      "water"
+    ],
+    "taille_m": 1.0,
+    "poids_kg": 29.0,
+    "stats": {
+      "hp": 130,
+      "attack": 65,
+      "defense": 60,
+      "special-attack": 110,
+      "special-defense": 95,
+      "speed": 65
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/134.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/134.png"
+    },
+    "description": "Sa composition moléculaire est proche de celle de l’eau, ce qui lui permet de se liquéfier.",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/67/",
+    "evolue_de": "eevee"
+  },
+  {
+    "pokedex_num": 135,
+    "nom": "Voltali",
+    "nom_anglais": "jolteon",
+    "types": [
+      "electric"
+    ],
+    "taille_m": 0.8,
+    "poids_kg": 24.5,
+    "stats": {
+      "hp": 65,
+      "attack": 65,
+      "defense": 60,
+      "special-attack": 110,
+      "special-defense": 95,
+      "speed": 130
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/135.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/135.png"
+    },
+    "description": "Face au danger, il fait appel à l’électricité pour dresser ses poils et lancer des décharges.",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/67/",
+    "evolue_de": "eevee"
+  },
+  {
+    "pokedex_num": 136,
+    "nom": "Pyroli",
+    "nom_anglais": "flareon",
+    "types": [
+      "fire"
+    ],
+    "taille_m": 0.9,
+    "poids_kg": 25.0,
+    "stats": {
+      "hp": 65,
+      "attack": 130,
+      "defense": 60,
+      "special-attack": 95,
+      "special-defense": 110,
+      "speed": 65
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/136.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/136.png"
+    },
+    "description": "L’air qu’il inspire est chauffé par la glande enflammée de son corps, atteignant les 1 700 °C.",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/67/",
+    "evolue_de": "eevee"
+  },
+  {
+    "pokedex_num": 137,
+    "nom": "Porygon",
+    "nom_anglais": "porygon",
+    "types": [
+      "normal"
+    ],
+    "taille_m": 0.8,
+    "poids_kg": 36.5,
+    "stats": {
+      "hp": 65,
+      "attack": 60,
+      "defense": 70,
+      "special-attack": 85,
+      "special-defense": 75,
+      "speed": 40
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/137.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/137.png"
+    },
+    "description": "Ce Pokémon créé par des scientifiques peut arpenter librement le cyberespace.",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/68/",
+    "evolue_de": null
+  },
+  {
+    "pokedex_num": 138,
+    "nom": "Amonita",
+    "nom_anglais": "omanyte",
+    "types": [
+      "rock",
+      "water"
+    ],
+    "taille_m": 0.4,
+    "poids_kg": 7.5,
+    "stats": {
+      "hp": 35,
+      "attack": 40,
+      "defense": 100,
+      "special-attack": 90,
+      "special-defense": 55,
+      "speed": 35
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/138.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/138.png"
+    },
+    "description": "Un Pokémon ramené à la vie par la science à partir d’un fossile. Il peuplait autrefois les mers.",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/69/",
+    "evolue_de": null
+  },
+  {
+    "pokedex_num": 139,
+    "nom": "Amonistar",
+    "nom_anglais": "omastar",
+    "types": [
+      "rock",
+      "water"
+    ],
+    "taille_m": 1.0,
+    "poids_kg": 35.0,
+    "stats": {
+      "hp": 70,
+      "attack": 60,
+      "defense": 125,
+      "special-attack": 115,
+      "special-defense": 70,
+      "speed": 55
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/139.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/139.png"
+    },
+    "description": "On pense que ce Pokémon a disparu parce que sa coquille en spirale était devenue trop grosse.",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/69/",
+    "evolue_de": "omanyte"
+  },
+  {
+    "pokedex_num": 140,
+    "nom": "Kabuto",
+    "nom_anglais": "kabuto",
+    "types": [
+      "rock",
+      "water"
+    ],
+    "taille_m": 0.5,
+    "poids_kg": 11.5,
+    "stats": {
+      "hp": 30,
+      "attack": 80,
+      "defense": 90,
+      "special-attack": 55,
+      "special-defense": 45,
+      "speed": 55
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/140.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/140.png"
+    },
+    "description": "On pense qu’il peuplait les plages il y a 300 millions d’années. Il est protégé par une coquille robuste.",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/70/",
+    "evolue_de": null
+  },
+  {
+    "pokedex_num": 141,
+    "nom": "Kabutops",
+    "nom_anglais": "kabutops",
+    "types": [
+      "rock",
+      "water"
+    ],
+    "taille_m": 1.3,
+    "poids_kg": 40.5,
+    "stats": {
+      "hp": 60,
+      "attack": 115,
+      "defense": 105,
+      "special-attack": 65,
+      "special-defense": 70,
+      "speed": 80
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/141.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/141.png"
+    },
+    "description": "On pense que ce Pokémon est venu sur la terre ferme pour suivre l’évolution de ses proies.",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/70/",
+    "evolue_de": "kabuto"
+  },
+  {
+    "pokedex_num": 142,
+    "nom": "Ptéra",
+    "nom_anglais": "aerodactyl",
+    "types": [
+      "rock",
+      "flying"
+    ],
+    "taille_m": 1.8,
+    "poids_kg": 59.0,
+    "stats": {
+      "hp": 80,
+      "attack": 105,
+      "defense": 65,
+      "special-attack": 60,
+      "special-defense": 75,
+      "speed": 130
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/142.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/142.png"
+    },
+    "description": "Un Pokémon qui arpentait le ciel au temps des dinosaures. Ses crocs sont pareils à des scies.",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/71/",
+    "evolue_de": null
+  },
+  {
+    "pokedex_num": 143,
+    "nom": "Ronflex",
+    "nom_anglais": "snorlax",
+    "types": [
+      "normal"
+    ],
+    "taille_m": 2.1,
+    "poids_kg": 460.0,
+    "stats": {
+      "hp": 160,
+      "attack": 110,
+      "defense": 65,
+      "special-attack": 65,
+      "special-defense": 110,
+      "speed": 30
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/143.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/143.png"
+    },
+    "description": "Une fois le ventre plein, il est trop amorphe pour lever le petit doigt. Sautez sur son ventre!",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/72/",
+    "evolue_de": "munchlax"
+  },
+  {
+    "pokedex_num": 144,
+    "nom": "Artikodin",
+    "nom_anglais": "articuno",
+    "types": [
+      "ice",
+      "flying"
+    ],
+    "taille_m": 1.7,
+    "poids_kg": 55.4,
+    "stats": {
+      "hp": 90,
+      "attack": 85,
+      "defense": 100,
+      "special-attack": 95,
+      "special-defense": 125,
+      "speed": 85
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/144.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/144.png"
+    },
+    "description": "Un Pokémon Oiseau légendaire. Il peut provoquer des blizzards en gelant l’humidité de l’air.",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/73/",
+    "evolue_de": null
+  },
+  {
+    "pokedex_num": 145,
+    "nom": "Électhor",
+    "nom_anglais": "zapdos",
+    "types": [
+      "electric",
+      "flying"
+    ],
+    "taille_m": 1.6,
+    "poids_kg": 52.6,
+    "stats": {
+      "hp": 90,
+      "attack": 90,
+      "defense": 85,
+      "special-attack": 125,
+      "special-defense": 90,
+      "speed": 100
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/145.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/145.png"
+    },
+    "description": "Un Pokémon Oiseau légendaire dont on dit qu’il vit dans les nuages d’orage. Il contrôle la foudre.",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/74/",
+    "evolue_de": null
+  },
+  {
+    "pokedex_num": 146,
+    "nom": "Sulfura",
+    "nom_anglais": "moltres",
+    "types": [
+      "fire",
+      "flying"
+    ],
+    "taille_m": 2.0,
+    "poids_kg": 60.0,
+    "stats": {
+      "hp": 90,
+      "attack": 100,
+      "defense": 90,
+      "special-attack": 125,
+      "special-defense": 85,
+      "speed": 90
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/146.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/146.png"
+    },
+    "description": "L’un des Pokémon Oiseaux légendaires. On dit que sa venue annonce l’arrivée du printemps.",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/75/",
+    "evolue_de": null
+  },
+  {
+    "pokedex_num": 147,
+    "nom": "Minidraco",
+    "nom_anglais": "dratini",
+    "types": [
+      "dragon"
+    ],
+    "taille_m": 1.8,
+    "poids_kg": 3.3,
+    "stats": {
+      "hp": 41,
+      "attack": 64,
+      "defense": 45,
+      "special-attack": 50,
+      "special-defense": 50,
+      "speed": 50
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/147.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/147.png"
+    },
+    "description": "On l’appelle “Pokémon mirage” en raison de sa rareté. On a découvert sa mue.",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/76/",
+    "evolue_de": null
+  },
+  {
+    "pokedex_num": 148,
+    "nom": "Draco",
+    "nom_anglais": "dragonair",
+    "types": [
+      "dragon"
+    ],
+    "taille_m": 4.0,
+    "poids_kg": 16.5,
+    "stats": {
+      "hp": 61,
+      "attack": 84,
+      "defense": 65,
+      "special-attack": 70,
+      "special-defense": 70,
+      "speed": 70
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/148.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/148.png"
+    },
+    "description": "La météo change brusquement quand il est entouré d’une aura. On dit qu’il peuple les mers et les lacs.",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/76/",
+    "evolue_de": "dratini"
+  },
+  {
+    "pokedex_num": 149,
+    "nom": "Dracolosse",
+    "nom_anglais": "dragonite",
+    "types": [
+      "dragon",
+      "flying"
+    ],
+    "taille_m": 2.2,
+    "poids_kg": 210.0,
+    "stats": {
+      "hp": 91,
+      "attack": 134,
+      "defense": 95,
+      "special-attack": 100,
+      "special-defense": 100,
+      "speed": 80
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/149.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/149.png"
+    },
+    "description": "On raconte qu’il vit quelque part en mer. Il guide les équipages naufragés jusqu’à la terre ferme.",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/76/",
+    "evolue_de": "dragonair"
+  },
+  {
+    "pokedex_num": 150,
+    "nom": "Mewtwo",
+    "nom_anglais": "mewtwo",
+    "types": [
+      "psychic"
+    ],
+    "taille_m": 2.0,
+    "poids_kg": 122.0,
+    "stats": {
+      "hp": 106,
+      "attack": 110,
+      "defense": 90,
+      "special-attack": 154,
+      "special-defense": 90,
+      "speed": 130
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/150.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/150.png"
+    },
+    "description": "Un Pokémon conçu en réorganisant les gènes de Mew. On raconte qu’il s’agit du Pokémon le plus féroce.",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/77/",
+    "evolue_de": null
+  },
+  {
+    "pokedex_num": 151,
+    "nom": "Mew",
+    "nom_anglais": "mew",
+    "types": [
+      "psychic"
+    ],
+    "taille_m": 0.4,
+    "poids_kg": 4.0,
+    "stats": {
+      "hp": 100,
+      "attack": 100,
+      "defense": 100,
+      "special-attack": 100,
+      "special-defense": 100,
+      "speed": 100
+    },
+    "sprites": {
+      "officiel": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/151.png",
+      "miniature": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/151.png"
+    },
+    "description": "Nombre de scientifiques voient en lui l’ancêtre des Pokémon car il maîtrise toutes leurs capacités.",
+    "evolution_chain_url": "https://pokeapi.co/api/v2/evolution-chain/78/",
+    "evolue_de": null
+  }
+]
