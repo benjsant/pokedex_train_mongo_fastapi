@@ -1,66 +1,45 @@
 from typing import List, Optional
 from pydantic import BaseModel, Field, ConfigDict
 from bson import ObjectId
+from app.models.pydantic_objectid import PyObjectId
 
 
-class PyObjectId(ObjectId):
-    """Custom Pydantic-compatible ObjectId for MongoDB models."""
+# --- Pokémon Stats ---
+class Stats(BaseModel):
+    hp: Optional[int] = Field(None, description="Points de vie (HP)", example=45)
+    attack: Optional[int] = Field(None, description="Attaque", example=49)
+    defense: Optional[int] = Field(None, description="Défense", example=49)
+    special_attack: Optional[int] = Field(None, description="Attaque spéciale", example=65, alias="special-attack")
+    special_defense: Optional[int] = Field(None, description="Défense spéciale", example=65, alias="special-defense")
+    speed: Optional[int] = Field(None, description="Vitesse", example=45)
 
-    @classmethod
-    def __get_validators__(cls):
-        yield cls.validate
-
-    @classmethod
-    def validate(cls, v):
-        if not ObjectId.is_valid(v):
-            raise ValueError("Invalid ObjectId")
-        return ObjectId(v)
-
-    @classmethod
-    def __modify_schema__(cls, field_schema):
-        field_schema.update(type="string")
+    model_config = ConfigDict(extra="ignore", populate_by_name=True)
 
 
 # --- Base Model ---
 class PokemonBase(BaseModel):
-    """
-    Base model representing a Pokémon.
-    Shared by creation and response models.
-    """
+    pokedex_id: int = Field(..., description="Numéro officiel du Pokédex", example=1)
+    name: str = Field(..., description="Nom du Pokémon (anglais)")
+    name_fr: Optional[str] = Field(None, description="Nom du Pokémon (français)")
+    types: List[str] = Field(..., description="Types du Pokémon")
+    height_m: Optional[float] = Field(None, description="Taille en mètres")
+    weight_kg: Optional[float] = Field(None, description="Poids en kilogrammes")
+    stats: Optional[Stats] = Field(None, description="Statistiques du Pokémon")
+    description_fr: Optional[str] = Field(None, description="Description en français")
+    evolution_chain_url: Optional[str] = Field(None, description="URL de la chaîne d'évolution")
+    evolves_from: Optional[str] = Field(None, description="Pokémon dont il évolue")
 
-    pokedex_num: int = Field(..., description="Numéro du Pokédex", example=25)
-    name: str = Field(..., description="Nom du Pokémon", example="Pikachu")
-    types: List[str] = Field(..., description="Types du Pokémon", example=["Électrik"])
-    height: Optional[float] = Field(None, description="Taille en mètres", example=0.4)
-    weight: Optional[float] = Field(None, description="Poids en kilogrammes", example=6.0)
-    description: Optional[str] = Field(
-        None, description="Description du Pokémon", 
-        example="Pikachu stocke de l’électricité dans ses joues."
-    )
-    evolutions: Optional[List[str]] = Field(
-        None, description="Chaîne d'évolution", example=["Raichu"]
-    )
-
-    model_config = ConfigDict(extra="ignore")
+    model_config = ConfigDict(extra="ignore", populate_by_name=True)
 
 
 # --- Create Model ---
 class PokemonCreate(PokemonBase):
-    """
-    Model used when creating a new Pokémon (POST).
-    Does not include an ID field.
-    """
     pass
 
 
 # --- Response Model ---
 class PokemonResponse(PokemonBase):
-    """
-    Model returned when fetching a Pokémon (GET).
-    Includes MongoDB ObjectId as `_id`.
-    """
-
-    id: Optional[PyObjectId] = Field(alias="_id")
+    id: Optional[PyObjectId] = Field(default=None, alias="_id")
 
     model_config = ConfigDict(
         populate_by_name=True,
@@ -69,8 +48,7 @@ class PokemonResponse(PokemonBase):
     )
 
     def to_mongo(self) -> dict:
-        """Convert the model into a MongoDB-ready dictionary."""
-        data = self.dict(by_alias=True, exclude_none=True)
+        data = self.model_dump(by_alias=True, exclude_none=True)
         if "_id" in data and isinstance(data["_id"], str):
             data["_id"] = ObjectId(data["_id"])
         return data
